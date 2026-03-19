@@ -12,24 +12,24 @@ Four switches are used to give a 4-bit binary input (A, B, C, D). This input is 
 ## Working
 Each switch represents one bit of the binary input. By turning switches ON or OFF, different binary combinations can be given.
 For example:
-0000 → displays 0
-0001 → displays 1
-0010 → displays 2
-0101 → displays 5
+ 0000 → displays 0
+ 0001 → displays 1
+ 0010 → displays 2
+ 0101 → displays 5
 The decoder automatically turns ON the required segments to form the correct number on the display.
 ## Features
-Simple and easy to understand circuit
-Real-time input using switches
-Accurate display of decimal digits (0–9)
-Useful for learning basic digital electronics
+- Simple and easy to understand circuit
+- Real-time input using switches
+- Accurate display of decimal digits (0–9)
+- Useful for learning basic digital electronics
 ## Limitations
-Only works for numbers from 0 to 9 (BCD range)
-Inputs above 1001 (9) give undefined output
-Requires proper connections and power supply
+- Only works for numbers from 0 to 9 (BCD range)
+- Inputs above 1001 (9) give undefined output
+- Requires proper connections and power supply
 ## Applications
-Digital clocks
-Counters
-Basic calculators
-Display units in embedded systems
+- Digital clocks
+- Counters
+- Basic calculators
+- Display units in embedded systems
 ## Conclusion
 This project helps in understanding how binary numbers are converted into human-readable decimal form using a decoder and a 7-segment display. It is a basic but important concept in digital electronics and is widely used in real-world applications.
