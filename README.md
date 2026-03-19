@@ -2,11 +2,11 @@
 ## Overview
 This project demonstrates how a 7-segment display can be used to show decimal numbers by giving a 4-bit binary input. A BCD to 7-segment decoder IC is used to convert the binary input into the required signals for the display. The circuit is designed and simulated in Multisim.
 ## Components Used
--7447 BCD to 7-segment decoder IC
--7-segment display (common anode)
--Toggle switches (for input)
--5V DC power supply
--Connecting wire
+- 7447 BCD to 7-segment decoder IC
+- 7-segment display (common anode)
+- Toggle switches (for input)
+- 5V DC power supply
+- Connecting wire
 ## Circuit Description
 Four switches are used to give a 4-bit binary input (A, B, C, D). This input is fed into the decoder IC, which converts the binary number into signals that control the segments of the display. Based on the input, the display shows the corresponding decimal digit from 0 to 9.
 ## Working
