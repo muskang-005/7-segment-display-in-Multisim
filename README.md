@@ -1,44 +1,44 @@
-# 7-segment-display-in-Multisim
+# 7-Segment-Display-In-Multisim
 ## Overview
-This project demonstrates how a 7-segment display can be used to show decimal numbers by giving a 4-bit binary input. A BCD to 7-segment decoder IC is used to convert the binary input into the required signals for the display. The circuit is designed and simulated in Multisim.
+This project aims to illustrate the usage of a 7-segment display in displaying decimal numbers by accepting a 4-bit binary input. A BCD to 7-segment display IC is utilized in the project to convert the input binary number into the required signals for the display. The project was designed and simulated in Multisim.
 
 ## Components Used
-- 7447 BCD to 7-segment decoder IC
-- 7-segment display (common anode)
+- 7447 BCD to 7-segment display IC
+- 7-segment display (common anode type)
 - Toggle switches (for input)
 - 5V DC power supply
 - Connecting wire
   
 ## Circuit Description
-Four switches are used to give a 4-bit binary input (A, B, C, D). This input is fed into the decoder IC, which converts the binary number into signals that control the segments of the display. Based on the input, the display shows the corresponding decimal digit from 0 to 9.
+The project uses 4 switches to accept a 4-bit binary input (A, B, C, D). This binary input is then connected to the IC, which then converts the input binary number into the required signals for the display. Depending on the input, the display will then display the corresponding decimal number from 0 to 9.
 
 ![Circuit](7seg1.png)
 
 ## Working
-Each switch represents one bit of the binary input. By turning switches ON or OFF, different binary combinations can be given.
+Each switch represents one bit of the binary input. By setting the switches ON or OFF, various binary inputs can be entered.
 For example:
 - 0000 → displays 0
 - 0001 → displays 1
 - 0010 → displays 2
 - 0101 → displays 5
-The decoder automatically turns ON the required segments to form the correct number on the display.
+The decoder will turn ON the necessary segments to display the correct number on the display.
 
 ## Features
-- Simple and easy to understand circuit
-- Real-time input using switches
-- Accurate display of decimal digits (0–9)
-- Useful for learning basic digital electronics
+- Simple circuit to understand
+- Real-time inputs are provided by the switches
+- Displays decimal values (0 to 9) accurately
+- Used for learning basic digital electronics
   
 ## Limitations
-- Only works for numbers from 0 to 9 (BCD range)
-- Inputs above 1001 (9) give undefined output
-- Requires proper connections and power supply
+- It only supports values from 0 to 9
+- It does not work for values above 1001 (or 9)
+- It must be connected correctly and have power supply connected
   
 ## Applications
 - Digital clocks
 - Counters
-- Basic calculators
-- Display units in embedded systems
+- Simple calculators
+- Display units of embedded systems
   
 ## Conclusion
-This project helps in understanding how binary numbers are converted into human-readable decimal form using a decoder and a 7-segment display. It is a basic but important concept in digital electronics and is widely used in real-world applications.
+This project is useful in understanding the conversion of binary numbers into decimal using a decoder and a 7-segment display. It is an essential concept of digital electronics.
